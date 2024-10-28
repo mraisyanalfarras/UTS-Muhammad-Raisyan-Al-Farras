@@ -58,7 +58,7 @@ public class TambahActivity extends AppCompatActivity {
 
     // Fungsi untuk mengatur item pada Spinner
     private void setupSpinner() {
-        String[] statuses = {"Aktif", "Tidak Aktif"}; // Contoh status
+        String[] statuses = {"selesai", "belum selesai"}; // Contoh status
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, statuses);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spStatus.setAdapter(adapter);

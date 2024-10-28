@@ -53,9 +53,9 @@ public class Agenda implements Serializable {
     }
     public int getStatusColor() {
         switch (status) {
-            case "Aktif":
+            case "selesai":
                 return 0xFF00FF00; // Warna Hijau
-            case "Tidak Aktif":
+            case "belum selesai":
                 return 0xFFFF0000; // Warna Merah
             case "Pending":
                 return 0xFFFFFF00; // Warna Kuning
